@@ -1,5 +1,5 @@
 {
-  "name": "descripta-ai",
+  "name": "descriptica-ai",
   "private": true,
   "scripts": {
     "build": "remix vite:build",

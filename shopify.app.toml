@@ -1,9 +1,9 @@
 # Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
 
+name = "descriptica-ai"
 client_id = "3f335c85487791f6cf3934e9e994ee5f"
-application_url = "https://example.com/"
+application_url = "https://descriptica-ai.example.com"
 embedded = true
-name = "descripta-ai"
 handle = "descripta-ai"
 
 [webhooks]
@@ -26,3 +26,6 @@ redirect_urls = [ "https://example.com/api/auth" ]
 
 [pos]
 embedded = false
+
+[build]
+dev_store_url = "quickstart.myshopify.com"
